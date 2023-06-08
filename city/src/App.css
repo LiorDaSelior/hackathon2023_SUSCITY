@@ -1,0 +1,28 @@
+.App {
+    align-items: center;
+    background-color: rgb(153, 210, 224);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  }
+
+@media (max-width: 767px) {
+    .container {
+      text-align: center;
+      height: 100vh;
+    }
+}
