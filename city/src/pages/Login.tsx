@@ -1,12 +1,12 @@
 import React from "react";
 import {MDBCheckbox, MDBContainer, MDBInput} from "mdb-react-ui-kit";
-import RegisterButton from "../components/RegisterButton";
-import LoginButton from "../components/LoginButton";
+import RegisterButton from "../component/RegisterButton";
+import LoginButton from "../component/LoginButton";
 import 'bootstrap/dist/css/bootstrap.css'
 const LoginPage = () => {
   return (
        <div>
-       <div><p className="text-center align-middle" style={{fontSize: "60px", padding:"60px"}}>SuCity</p></div>
+       <div><p className="text-center" >SuCity</p></div>
     <MDBContainer className="p-3 my-5 d-flex flex-column w-50 ">
 
       <MDBInput wrapperClass='mb-4' label='Email address' id='form1' type='email'/>
